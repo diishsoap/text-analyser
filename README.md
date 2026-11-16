@@ -89,6 +89,6 @@ Further testing on more diverse, previously unseen passages would help evaluate 
 This project uses reading passage data created by **CommonLit** and **Georgia State University** ([CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) / [CLEAR Corpus](https://www.commonlit.org/blog/introducing-the-clear-corpus-an-open-dataset-to-advance-research-28ff8cfea84a/)). 
 
 * **Overall Dataset License:** Distributed under [CC BY-NC-SA 4.0](https://creativecommons.org) / MIT terms per CommonLit's official documentation.
-* **Passage-Level Licenses:** Most passages are Public Domain, while ~100 passages are licensed under **CC BY 4.0** or **CC BY-SA 3.0**. Individual source URLs (`url_legal`) and specific license terms (`license`) for every passage are preserved directly in the dataset files.
+* **Passage-Level Licenses:** Most passages are Public Domain, while ~100 passages are licensed under [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC BY-SA 3.0**](https://creativecommons.org/licenses/by-sa/3.0/). Individual source URLs (`url_legal`) and specific license terms (`license`) for every passage are preserved directly in the dataset files.
 * **Modifications:** Text passages were cleaned and preprocessed for NLP modeling. Individual source URLs and specific license terms were not modified or removed.
 
