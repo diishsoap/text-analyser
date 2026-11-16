@@ -4,7 +4,7 @@
 **Track:** AI + Languages <br>
 **Team:** Kiran Dhara (solo)
 
-
+<br>
 
 
 ## The Problem
@@ -28,7 +28,7 @@ Next, I checked for missing values and duplicates. The only missing values were 
 
 I chose this dataset because it included an attribute called 'BT Easiness', derived from teachers' judgments of which of two passages would be easier for a student to understand. These pairwise comparisons were used to calculate relative easiness scores using a Bradley–Terry model. This attribute aligned particularly well with my project's objectives. 
 
-
+<br>
 
 **Model:**
 
@@ -47,7 +47,7 @@ Model 2 achieved a further, modest improvement: MAE decreased by 1.73%, RMSE by 
 Additionally, the standard deviation of its predictions increased from approximately 0.672 to 0.743, moving closer to the actual standard deviation of 1.029. This suggests that Model 2 captured a wider range of readability scores, although its predictions remained more concentrated around the mean than the actual scores.
 In the end, Model 2 was selected as the preliminary model due to its better performance across all three evaluation metrics.
 
-
+<br>
 
 | Model | MAE | RMSE | R² |
 | :--- | :---: | :---: | :---: |
