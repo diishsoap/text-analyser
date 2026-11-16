@@ -1,7 +1,7 @@
 # CLEARText — Text Complexity Analyser
 
 
-**Track:** AI + Languages
+**Track:** AI + Languages <br>
 **Team:** Kiran Dhara (solo)
 
 
@@ -41,7 +41,7 @@ TF-IDF turned the text into numerical values, followed by Ridge Regression, whic
 I then developed a second model by replacing word-level TF-IDF with character-level TF-IDF, while retaining Ridge Regression. This allowed the model to analyse sequences of 3–5 consecutive characters rather than complete words and word combinations. This led to a modest increase in accuracy at the extremes.
 
 
-Results
+## Results
 Model 1 demonstrated a substantial improvement over the mean baseline, reducing MAE by approximately 35.9% and RMSE by 34.3%. However, error analysis revealed that it struggled particularly with passages at the extremes of the difficulty distribution, tending to overestimate the difficulty of easier passages and underestimate that of harder passages.
 Model 2 achieved a further, modest improvement: MAE decreased by 1.73%, RMSE by 3.23%, and R² increased by approximately 4.81% relative to Model 1. Its error analysis also showed improved predictions for the most difficult and easiest passages, although performance declined slightly for the two middle difficulty groups.
 Additionally, the standard deviation of its predictions increased from approximately 0.672 to 0.743, moving closer to the actual standard deviation of 1.029. This suggests that Model 2 captured a wider range of readability scores, although its predictions remained more concentrated around the mean than the actual scores.
