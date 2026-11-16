@@ -80,6 +80,15 @@ Further testing on more diverse, previously unseen passages would help evaluate 
 
 ## Sources
 - CLEAR (CommonLit Ease of Readability) Corpus: Crossley, S., Heintz, A., Choi, J.S. et al. A large-scaled corpus for assessing text readability. Behav Res 55, 491–507 (2023). https://doi.org/10.3758/s13428-022-01802-x (Dataset is loaded into this notebook from a personal GitHub Repository, https://github.com/diishsoap/text-analyser. License agreement is mentioned in the README.)
-- scikit-learn (TfidfVectorizer, Ridge, Pipeline, GroupShuffleSplit), pandas, NumPy, re, files, DummyRegressor, mean_absolute_error, mean_squared_error, r2_score,
+- [scikit-learn](https://scikit-learn.org/stable/?utm_source=chatgpt.com) (TfidfVectorizer, Ridge, Pipeline, GroupShuffleSplit), pandas, NumPy, re, files, DummyRegressor, mean_absolute_error, mean_squared_error, r2_score,
 - AI tools: I used ChatGPT to help debug, understand documentation of scikit-learn, to understand the flow of an AI project and required libraries, and to understand the methodology for the CLEAR dataset.
+
+
+
+## Dataset Attribution & Licensing
+This project uses reading passage data created by **CommonLit** and **Georgia State University** ([CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize) / [CLEAR Corpus](https://www.commonlit.org/blog/introducing-the-clear-corpus-an-open-dataset-to-advance-research-28ff8cfea84a/)). 
+
+* **Overall Dataset License:** Distributed under [CC BY-NC-SA 4.0](https://creativecommons.org) / MIT terms per CommonLit's official documentation.
+* **Passage-Level Licenses:** Most passages are Public Domain, while ~100 passages are licensed under **CC BY 4.0** or **CC BY-SA 3.0**. Individual source URLs (`url_legal`) and specific license terms (`license`) for every passage are preserved directly in the dataset files.
+* **Modifications:** Text passages were cleaned and preprocessed for NLP modeling. Individual source URLs and specific license terms were not modified or removed.
 
